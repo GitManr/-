@@ -8,18 +8,18 @@
 >
 > 具体效果如图
 
-![](http://q76e8mavs.bkt.clouddn.com/image-20200314162927884.png)
+![基本状态](http://q76e8mavs.bkt.clouddn.com/image-20200314162927884.png)
 
-![](http://q76e8mavs.bkt.clouddn.com/WechatIMG4482.png)
+![答题效果](http://q76e8mavs.bkt.clouddn.com/WechatIMG4482.png)
 
 
 
-#### kcbDetail.js
+#### kcbDetail.js -- 页面文件
 
 主要作页面的布局及页面的逻辑文件，将页面的弹窗答题、答题结果弹窗、基础弹窗进行引入应用。
 逻辑上，获取所有题目和当前用户正在答第几题的内容进行在当前js中进行处理。 对切换答题列表进行处理及离开后的数据状态清楚。
 
-#### topicNode.js
+#### topicNode.js -- 弹窗答题
 
 该文件为当前的答题处理，运用了react hooks。（单个题目只负责自己题目的状态，题目与答题列表的关系放在父级文件处理）。
 

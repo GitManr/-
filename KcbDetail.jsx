@@ -5,7 +5,7 @@ import { actionType as mainSaga } from '../../models/sagas/main.saga';
 import { actionType } from '../../models/sagas/answer.saga';
 import styles from './kcbDetail.css';
 
-const cyImg = require('../../assets/images/测验背景.png');
+const cyImg = require('../../assets/images/bg.png');
 
 class KcbDetail extends React.PureComponent {
   constructor(props) {
